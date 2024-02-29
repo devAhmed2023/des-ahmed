@@ -450,7 +450,7 @@ input:focus, textarea:focus {
 /* Media Queries */
 @media screen and (max-width: 580px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .navlist {
         background: var(--white);
@@ -460,6 +460,7 @@ input:focus, textarea:focus {
         right: 0;
         padding: 2rem 4rem;
         transform: translateX(100%);
+        display: none;
         transition: transform .3s ease-in-out;
     }
     .navlist-active {
