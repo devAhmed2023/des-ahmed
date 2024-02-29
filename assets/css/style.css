@@ -450,7 +450,7 @@ input:focus, textarea:focus {
 /* Media Queries */
 @media screen and (max-width: 580px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .navlist {
         background: var(--white);
